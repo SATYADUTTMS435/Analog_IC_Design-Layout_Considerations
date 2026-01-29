@@ -44,7 +44,7 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 ###  Design Parameters
 | Parameter | Value |
 |--------|------|
-| VDD | ______ |
+| VDD | ___1V___ |
 | RD | ______ |
 | NMOS W/L | ______ |
 | NMOS Bias Voltage | ______ |
