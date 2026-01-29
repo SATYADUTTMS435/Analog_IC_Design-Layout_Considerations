@@ -60,6 +60,8 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 - Limited gain and output swing
 - Not preferred for modern IC design
 
+### All the related pictures are present under the folder Day_1/CS_with_Rd
+
 ---
 
 ##  CS Amplifier with PMOS Diode-Connected Load
@@ -93,6 +95,8 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 - Better bias stability than resistor load
 - Moderate gain
 - Used in simple current mirrors and bias circuits
+
+### All the related pictures are present under the folder Day_1/CS_with_Diode_Connected_PMOS
 
 ---
 
@@ -128,6 +132,8 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 - High gain and wide output swing
 - Excellent bias stability
 - Preferred topology for **LDOs, Op-Amps, and BGRs**
+
+### All the related pictures are present under the folder Day_1/CS_with_Active_Load_PMOS
 
 ---
 
