@@ -44,18 +44,18 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 ###  Design Parameters
 | Parameter | Value |
 |--------|------|
-| VDD | ___1V___ |
-| RD | ___Sweep(Best 5K)___ |
-| NMOS W/L | ___120nm/45nm___ |
-| NMOS Bias Voltage | ___0.6V____ |
-| Input Amplitude | ___50mV____ |
-| Input Frequency | ___1kHz____ |
+| VDD | 1V |
+| RD | Sweep(Best 5K) |
+| NMOS W/L | 120nm/45nm |
+| NMOS Bias Voltage | 0.6V |
+| Input Amplitude | 50mV |
+| Input Frequency | 1kHz |
 
 ###  Observations (From Simulation)
 - DC Operating Point (Vout): **______**
 - Drain Current (ID): **______**
-- Small Signal Gain (Av): **___3.25V____**
-- Output Swing: **__520mV___  to __840mV___**
+- Small Signal Gain (Av): **3.25V**
+- Output Swing: **520mV  to  840mV**
 
 ###  Inference
 - Bias point is sensitive to resistor value and process variations
@@ -82,18 +82,18 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 ###  Design Parameters
 | Parameter | Value |
 |--------|------|
-| VDD | __1V____ |
-| PMOS W/L | __925nm/45nm____ |
-| NMOS W/L | ___120nm/45nm____ |
-| NMOS Bias Voltage | ___600mV____ |
-| Input Amplitude | ___50mV____ |
-| Input Frequency | ___1kHz____ |
+| VDD | 1V |
+| PMOS W/L | 925nm/45nm |
+| NMOS W/L | 120nm/45nm |
+| NMOS Bias Voltage | 600mV |
+| Input Amplitude | 50mV |
+| Input Frequency | 1kHz |
 
 ###  Observations (From Simulation)
-- DC Operating Point (Vout): **___403mV___**
-- Drain Current (ID): **___2.323uA___**
-- Small Signal Gain (Av): **___0.65V____**
-- Output Swing: **___470mV___ to ___530mV___**
+- DC Operating Point (Vout): **403mV**
+- Drain Current (ID): **2.323uA**
+- Small Signal Gain (Av): **0.65V**
+- Output Swing: **470mV to 530mV**
 
 ###  Inference
 - Better bias stability than resistor load
@@ -120,19 +120,19 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 ###  Design Parameters
 | Parameter | Value |
 |--------|------|
-| VDD | ___1V___ |
-| PMOS Bias Voltage | ___400mV___ |
-| PMOS W/L | ___1um/45nm___ |
-| NMOS W/L | ___120nm/45nm____ |
-| NMOS Bias Voltage | ___600mV___ |
-| Input Amplitude | ___25mV____ |
-| Input Frequency | ___1kHz____ |
+| VDD | 1V |
+| PMOS Bias Voltage | 400mV |
+| PMOS W/L | 1um/45nm |
+| NMOS W/L | 120nm/45nm |
+| NMOS Bias Voltage | 600mV |
+| Input Amplitude | 25mV |
+| Input Frequency | 1kHz |
 
 ###  Observations (From Simulation)
 - DC Operating Point (Vout): **______**
 - Drain Current (ID): **______**
-- Small Signal Gain (Av): **___0.4V___**
-- Output Swing: **___964mV___ to ___984mV___**
+- Small Signal Gain (Av): **0.4V**
+- Output Swing: **964mV to 984mV**
 
 ###  Inference
 - High gain and wide output swing
@@ -147,8 +147,7 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 
 | Parameter | RD Load | PMOS Diode Load | PMOS Biased Load |
 |--------|--------|----------------|----------------|
-| Gain | ______ | ______ | ______ |
-| Output Swing | ______ | ______ | ______ |
+| Gain | 3.25V | 0.65 | 0.4 |
 | Bias Stability | Low | Medium | High |
 | Power Efficiency | Low | Medium | High |
 | IC Suitability | No | Partial | Yes |
