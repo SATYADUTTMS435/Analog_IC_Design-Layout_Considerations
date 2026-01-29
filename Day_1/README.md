@@ -47,13 +47,15 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 | VDD | ___1V___ |
 | RD | ___Sweep(Best 5K)___ |
 | NMOS W/L | ___120nm/45nm___ |
-| NMOS Bias Voltage | __0.6V____ |
+| NMOS Bias Voltage | ___0.6V____ |
+| Input Amplitude | ___50mV____ |
+| Input Frequency | ___1kHz____ |
 
 ###  Observations (From Simulation)
-- DC Operating Point (Vout): **______ V**
-- Drain Current (ID): **______ A**
-- Small Signal Gain (Av): **______**
-- Output Swing: **______ V to ______ V**
+- DC Operating Point (Vout): **______**
+- Drain Current (ID): **______**
+- Small Signal Gain (Av): **___3.25V____**
+- Output Swing: **__520mV___  to __840mV___**
 
 ###  Inference
 - Bias point is sensitive to resistor value and process variations
@@ -80,16 +82,18 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 ###  Design Parameters
 | Parameter | Value |
 |--------|------|
-| VDD | ______ |
-| PMOS W/L | ______ |
-| NMOS W/L | ______ |
-| NMOS Bias Voltage | ______ |
+| VDD | __1V____ |
+| PMOS W/L | __925nm/45nm____ |
+| NMOS W/L | ___120nm/45nm____ |
+| NMOS Bias Voltage | ___600mV____ |
+| Input Amplitude | ___50mV____ |
+| Input Frequency | ___1kHz____ |
 
 ###  Observations (From Simulation)
-- DC Operating Point (Vout): **______ V**
-- Drain Current (ID): **______ A**
-- Small Signal Gain (Av): **______**
-- Output Swing: **______ V to ______ V**
+- DC Operating Point (Vout): **___403mV___**
+- Drain Current (ID): **___2.323uA___**
+- Small Signal Gain (Av): **___0.65V____**
+- Output Swing: **___470mV___ to ___530mV___**
 
 ###  Inference
 - Better bias stability than resistor load
@@ -116,17 +120,19 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 ###  Design Parameters
 | Parameter | Value |
 |--------|------|
-| VDD | ______ |
-| PMOS Bias Voltage | ______ |
-| PMOS W/L | ______ |
-| NMOS W/L | ______ |
-| NMOS Bias Voltage | ______ |
+| VDD | ___1V___ |
+| PMOS Bias Voltage | ___400mV___ |
+| PMOS W/L | ___1um/45nm___ |
+| NMOS W/L | ___120nm/45nm____ |
+| NMOS Bias Voltage | ___600mV___ |
+| Input Amplitude | ___25mV____ |
+| Input Frequency | ___1kHz____ |
 
 ###  Observations (From Simulation)
-- DC Operating Point (Vout): **______ V**
-- Drain Current (ID): **______ A**
-- Small Signal Gain (Av): **______**
-- Output Swing: **______ V to ______ V**
+- DC Operating Point (Vout): **______**
+- Drain Current (ID): **______**
+- Small Signal Gain (Av): **___0.4V___**
+- Output Swing: **___964mV___ to ___984mV___**
 
 ###  Inference
 - High gain and wide output swing
