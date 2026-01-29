@@ -45,9 +45,9 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 | Parameter | Value |
 |--------|------|
 | VDD | ___1V___ |
-| RD | ______ |
-| NMOS W/L | ______ |
-| NMOS Bias Voltage | ______ |
+| RD | ___Sweep(Best 5K)___ |
+| NMOS W/L | ___120nm/45nm___ |
+| NMOS Bias Voltage | __0.6V____ |
 
 ###  Observations (From Simulation)
 - DC Operating Point (Vout): **______ V**
