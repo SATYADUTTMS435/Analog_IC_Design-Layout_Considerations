@@ -47,7 +47,7 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 | VDD | ______ |
 | RD | ______ |
 | NMOS W/L | ______ |
-| Bias VGS | ______ |
+| NMOS Bias Voltage | ______ |
 
 ###  Observations (From Simulation)
 - DC Operating Point (Vout): **______ V**
@@ -81,7 +81,7 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 | VDD | ______ |
 | PMOS W/L | ______ |
 | NMOS W/L | ______ |
-| Bias Voltage | ______ |
+| NMOS Bias Voltage | ______ |
 
 ###  Observations (From Simulation)
 - DC Operating Point (Vout): **______ V**
@@ -116,6 +116,7 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 | PMOS Bias Voltage | ______ |
 | PMOS W/L | ______ |
 | NMOS W/L | ______ |
+| NMOS Bias Voltage | ______ |
 
 ###  Observations (From Simulation)
 - DC Operating Point (Vout): **______ V**
