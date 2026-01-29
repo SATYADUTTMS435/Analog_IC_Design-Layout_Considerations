@@ -52,8 +52,8 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 | Input Frequency | 1kHz |
 
 ###  Observations (From Simulation)
-- DC Operating Point (Vout): **______**
-- Drain Current (ID): **______**
+- DC Operating Point (Vout): **To be added**
+- Drain Current (ID): **To be added**
 - Small Signal Gain (Av): **3.25V**
 - Output Swing: **520mV  to  840mV**
 
@@ -115,7 +115,7 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 - Small signal gain: Av = -gm * (ron || rop)
 
  
-- Provides highest gain among all three configurations
+- Provides **highest gain** among all three configurations
 
 ###  Design Parameters
 | Parameter | Value |
@@ -129,8 +129,8 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 | Input Frequency | 1kHz |
 
 ###  Observations (From Simulation)
-- DC Operating Point (Vout): **______**
-- Drain Current (ID): **______**
+- DC Operating Point (Vout): **To be added**
+- Drain Current (ID): **To be added**
 - Small Signal Gain (Av): **0.4V**
 - Output Swing: **964mV to 984mV**
 
@@ -147,7 +147,7 @@ The objective of Day 1 was to design, simulate, and compare a **Common Source (C
 
 | Parameter | RD Load | PMOS Diode Load | PMOS Biased Load |
 |--------|--------|----------------|----------------|
-| Gain | 3.25V | 0.65 | 0.4 |
+| Gain | 3.25V | 0.65 | To be added |
 | Bias Stability | Low | Medium | High |
 | Power Efficiency | Low | Medium | High |
 | IC Suitability | No | Partial | Yes |
