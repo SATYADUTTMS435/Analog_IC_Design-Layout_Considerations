@@ -126,8 +126,8 @@ Where:
 ##  Calculations (At 27°C)
 
 - **ΔVBE = VT * ln(n) = __0.119____ V**
-- **PTAT Term = VT * ln(n) * (1 + R2 / R3) = __0.124____ V**
-- **VREF = VBE2 + PTAT Term = __1.25____ V**
+- **PTAT Term = VT * ln(n) * (1 + R2 / R3) = __0.124___ V**
+- **VREF = VBE2 + PTAT Term = __1.25___ V**
 
 
 ---
