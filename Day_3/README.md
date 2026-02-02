@@ -85,7 +85,7 @@ Thus: **ΔVBE → PTAT**
 
 The PTAT voltage is converted into a current using a resistor: **IPTAT = ΔVBE / R**
 
-The resistor is designed such that: **IPTAT = __100___ µA**
+The resistor is designed such that: **IPTAT = __100__ µA**
 
 ---
 
@@ -116,7 +116,7 @@ Where:
 
 - Operating Temperature: **27°C**
 - Thermal Voltage: **VT = ___26m___ V**
-- Emitter Area Ratio: **n = __100___**
+- Emitter Area Ratio: **n = __100__**
 - Resistor Values: **R1 = ___1K Ohm___**,**R2 = ___500 Ohm___**,**R3 = ___12K Ohm___**
 - Bias Current: **I = ___100___ µA**
 - Fingers: **64**
