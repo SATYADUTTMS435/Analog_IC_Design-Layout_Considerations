@@ -1,4 +1,4 @@
-# 📘 Analog IC Design Workshop – Day 3  
+#  Analog IC Design Workshop – Day 3  
 ## CTAT & PTAT Generation using Bandgap Reference (BGR)
 
 This document describes the work completed on **Day 3** of the *Analog IC Design and Layout Considerations* workshop.  
