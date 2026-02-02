@@ -106,6 +106,11 @@ This confirmed that the symbol accurately represents the underlying differential
 
 ---
 
+### Spectrum Analysis (DFT)
+
+Spectrum analysis using DFT was performed in Cadence Virtuoso to study the frequency-domain behavior of the differential amplifier / OTA. The DFT converts the time-domain output signal into its frequency components, allowing identification of the fundamental tone, harmonic distortion, and noise floor. Harmonics arise due to circuit non-linearities and appear at integer multiples of the input frequency. Key performance metrics evaluated include Signal-to-Noise Ratio (SNR), Signal-to-Noise-and-Distortion Ratio (SNDR), Total Harmonic Distortion (THD), and Spurious-Free Dynamic Range (SFDR). For a well-designed analog block, the noise and distortion components should be significantly lower than the fundamental, with typical design targets of SNR and SFDR greater than 80 dB and low THD. The spectrum analysis confirms that the OTA exhibits acceptable noise and distortion performance for precision analog and mixed-signal applications.
+
+
 ##  Conclusion (Day 2)
 
 - A MOS differential amplifier with PMOS active load was successfully designed and analyzed
@@ -115,6 +120,7 @@ This confirmed that the symbol accurately represents the underlying differential
   - Low Dropout Regulators (LDOs)
   - Operational Amplifiers
   - Bandgap Reference circuits
+- Spectrum analysis using DFT was also performed
 
 ---
 
