@@ -89,7 +89,7 @@ These practices reflect **industry-standard analog layout techniques**.
 
 ---
 
-## 🏁 Workshop Summary
+##  Workshop Summary
 
 - Day 1–2: Circuit design and analysis  
 - Day 3: Bandgap reference and temperature compensation  
